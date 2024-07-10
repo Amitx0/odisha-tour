@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.main {
+  background: url(https://live.staticflickr.com/8272/29778711454_61c5ba301a_b.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar h1 {
+  padding-left: 72px;
+}
+
+.a-tag a {
+  color: rgb(250, 250, 250);
+  text-decoration: none;
+  padding-left: 50px;
+}
+
+.a-tag a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.but {
+  width: 200px;
+}
+.but button {
+  margin-left: 16px;
+  width: 65px;
+  height: 30px;
+  background-color: transparent;
+  color: white;
+  border: none;
+
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* .para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 200px;
+} */
+
+.pp p {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  padding-left: 89px;
+  margin-top: 133px;
+}
+
+.pp h1 {
+  font-size: 48px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding-left: 177px;
+}
+
+.pp span {
+  font-size: 70px;
+  margin-left: 73px;
+}
+
+.pp button {
+  width: 197px;
+  height: 40px;
+  border-radius: 5px;
+  margin-left: 237px;
+  background-color: rgb(241, 241, 106);
+  cursor: pointer;
+}
+
+/* sign in */
+
+.popup {
+  backdrop-filter: blur(10px);
+  width: 400px;
+  position: relative;
+  top: -100%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  visibility: hidden;
+  height: 364px;
+  transition: 0.4, top 0.4;
+}
+
+.open-popup {
+  top: -15%;
+
+  transform: translate(-50%, -50%) scale(1);
+  visibility: visible;
+}
+
+.popup h2 {
+  font-size: 42px;
+  margin: 0;
+  padding-top: 24px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+}
+.popup h1 {
+  margin: 0;
+  font-size: 42px;
+  margin-left: 10px;
+}
+
+.popup p {
+  margin-left: 10px;
+}
+
+.pop input {
+  width: 275px;
+  height: 31px;
+  color: white;
+  margin-left: 50px;
+  margin-top: 12px;
+  border: none;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  background-color: transparent;
+}
+
+::placeholder {
+  color: white;
+}
+
+.btn {
+  margin-top: 20px;
+  width: 287px;
+  height: 44px;
+  display: flex;
+  margin-left: 50px;
+  gap: 54px;
+}
+
+.btn button {
+  background-color: transparent;
+  border-radius: 24px;
+  border: none;
+  color: white;
+}

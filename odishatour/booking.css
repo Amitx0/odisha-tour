@@ -1,0 +1,273 @@
+.area {
+  /* opacity: 0; */
+  visibility: hidden;
+  transition: opacity 0.5s, visibility 0.5s;
+}
+
+.area.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+#hotel-area-popup {
+  visibility: visible;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(img/booking.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+}
+
+/* navbar-starting */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar h1 {
+  padding-left: 72px;
+}
+
+.a-tag a {
+  color: rgb(250, 250, 250);
+  text-decoration: none;
+  padding-left: 50px;
+}
+
+.a-tag a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.but {
+  width: 200px;
+}
+.but button {
+  margin-left: 16px;
+  width: 65px;
+  height: 30px;
+  background-color: transparent;
+  color: white;
+  border: none;
+
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* navbar-ending */
+
+/* bookingfrom-start */
+.box {
+  width: 75%;
+  height: 470px;
+  margin-top: 20px;
+  margin: 80px auto;
+  background-color: rgb(15, 58, 93, 0.9);
+  border-radius: 235px 10px;
+}
+
+.need {
+  margin: 19px 0 0 152px;
+  padding-top: 36px;
+}
+
+.need button {
+  width: 74px;
+  height: 38px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+}
+
+#hotel {
+  background-color: yellow;
+}
+
+/* hotel-start */
+
+#hotel-area-popup {
+  width: 65%;
+  height: 214px;
+
+  position: absolute;
+  right: 52%;
+  top: 26%;
+  transform: translate(50%, 50%) scale(1);
+  display: flex;
+  /* visibility: hidden; */
+}
+
+.left {
+  width: 50%;
+  height: 213px;
+}
+input {
+  width: 390px;
+  height: 37px;
+  margin-left: 28px;
+  margin-right: 48px;
+}
+
+.right {
+  width: 50%;
+  height: 213px;
+}
+
+.box p {
+  margin: 0;
+  font-size: 20px;
+  padding: 12px 29px;
+}
+
+.submit {
+  margin: 37px 0 0 93px;
+  width: 149px;
+  height: 51px;
+  border-radius: 20px;
+  border: none;
+  background-color: yellow;
+  font-size: 20px;
+}
+/* hotel-end */
+/* flight-start */
+#flight-popup {
+  width: 65%;
+  height: 214px;
+
+  position: absolute;
+
+  right: 52%;
+  top: 26%;
+  transform: translate(50%, 50%) scale(1);
+  display: flex;
+  visibility: hidden;
+}
+
+.left {
+  width: 50%;
+  height: 213px;
+}
+input {
+  width: 390px;
+  height: 37px;
+  margin-left: 28px;
+  margin-right: 48px;
+}
+
+.right {
+  width: 50%;
+  height: 213px;
+}
+
+.box p {
+  margin: 0;
+  font-size: 20px;
+  padding: 12px 29px;
+}
+
+.submit {
+  margin: 37px 0 0 93px;
+  width: 149px;
+  height: 51px;
+  border-radius: 20px;
+  border: none;
+  background-color: yellow;
+  font-size: 20px;
+}
+/* flight-end */
+
+/* train-start */
+#train-popup {
+  width: 65%;
+  height: 214px;
+
+  position: absolute;
+
+  right: 52%;
+  top: 26%;
+  transform: translate(50%, 50%) scale(1);
+  display: flex;
+  visibility: hidden;
+}
+
+.left {
+  width: 50%;
+  height: 213px;
+}
+input {
+  width: 390px;
+  height: 37px;
+  margin-left: 28px;
+  margin-right: 48px;
+}
+
+.right {
+  width: 50%;
+  height: 213px;
+}
+
+.box p {
+  margin: 0;
+  font-size: 20px;
+  padding: 12px 29px;
+}
+
+.submit {
+  margin: 37px 0 0 93px;
+  width: 149px;
+  height: 51px;
+  border-radius: 20px;
+  border: none;
+  background-color: yellow;
+  font-size: 20px;
+}
+/* train-end */
+
+/* input-style-----> */
+
+.date-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="date"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  width: 400px;
+  box-sizing: border-box;
+}
+
+input[type="date"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+  outline: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+}
+
+/* <-----input-style */
+
+/* bookingfrom-end */

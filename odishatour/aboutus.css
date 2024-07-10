@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0b1d27;
+  color: white;
+  height: 1000vh;
+}
+
+.hidden {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar h1 {
+  padding-left: 72px;
+}
+
+.a-tag a {
+  color: white;
+  text-decoration: none;
+  padding-left: 50px;
+}
+
+.a-tag a:hover {
+  color: black;
+}
+
+.but {
+  width: 200px;
+}
+.but button {
+  margin-left: 16px;
+  width: 65px;
+  height: 30px;
+  background-color: transparent;
+  color: white;
+  border: none;
+
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.about {
+  display: flex;
+}
+
+.aboutus {
+  width: 623px;
+  margin-left: 119px;
+  margin-top: 86px;
+}
+
+.about-img {
+  width: 480px;
+  border-top-left-radius: 180px;
+  border-bottom-left-radius: 180px;
+  margin-left: 259px;
+  margin-top: 20px;
+}
+.aboutus a:hover {
+  text-decoration: underline;
+}
+
+.aboutus a,
+.travelmap a,
+.transportus a {
+  color: #feeda2;
+  text-decoration: none;
+}
+
+.travel {
+  display: flex;
+}
+
+.travel-img {
+  width: 480px;
+  border-top-right-radius: 180px;
+  border-bottom-right-radius: 180px;
+
+  margin-top: 76px;
+}
+.travelmap {
+  width: 623px;
+  margin-left: 278px;
+  margin-top: 120px;
+}
+
+.travelmap a:hover {
+  text-decoration: underline;
+}
+
+.transport {
+  display: flex;
+}
+.transportus {
+  width: 623px;
+  margin-left: 119px;
+  margin-top: 86px;
+}
+
+.transport img {
+  width: 480px;
+  border-top-left-radius: 180px;
+  border-bottom-left-radius: 180px;
+  margin-left: 259px;
+  margin-top: 20px;
+}
+
+.transport a:hover {
+  text-decoration: underline;
+}
+
+.explore {
+  display: flex;
+  margin-top: 127px;
+}
+.explore .left {
+  width: 88%;
+  margin-left: 181px;
+}
+
+.left button {
+  width: 234px;
+  height: 45px;
+  border-radius: 22px;
+  margin-left: 9px;
+  border: none;
+  background-color: #feeda2;
+}
+
+.explore .right {
+  margin-right: 109px;
+}

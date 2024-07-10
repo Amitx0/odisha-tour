@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+.main {
+  background: url(img/contactbackground.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.a-tag a {
+  color: rgb(250, 250, 250);
+  text-decoration: none;
+  padding-left: 50px;
+}
+.navbar h1 {
+  padding-left: 72px;
+}
+
+.a-tag a:hover {
+  color: rgb(255, 255, 255);
+}
+.but {
+  width: 200px;
+}
+.but button {
+  margin-left: 16px;
+  width: 65px;
+  height: 30px;
+  background-color: transparent;
+  color: white;
+  border: none;
+
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contant {
+  position: relative;
+  width: 1180px;
+  height: 550px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  margin-top: 36px;
+}
+
+.top h1 {
+  font-size: 57px;
+  margin: 0;
+  padding-left: 144px;
+  padding-top: 63px;
+}
+
+.top h2 {
+  font-size: 57px;
+  margin: 0;
+  padding-left: 314px;
+  padding-top: 14px;
+}
+
+.left {
+  width: 60%;
+  height: 270px;
+  margin-left: 78px;
+  /* border: 2px solid red; */
+}
+
+.left p {
+  font-size: 20px;
+}
+
+.name {
+  width: 312px;
+  height: 32px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #514949;
+  font-size: 20px;
+  color: burlywood;
+  margin-top: 18px;
+}
+
+::placeholder {
+  color: burlywood;
+}
+
+.mail {
+  width: 312px;
+  height: 32px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #514949;
+  margin-left: 40px;
+  color: burlywood;
+  font-size: 20px;
+}
+
+.details {
+  width: 674px;
+  height: 32px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #514949;
+  margin-top: 60px;
+  color: burlywood;
+  font-size: 20px;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.lr {
+  display: flex;
+  margin-top: 30px;
+}
+
+.left button {
+  width: 222px;
+  height: 50px;
+  margin-top: 33px;
+  margin-left: 455px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.left ion-icon {
+  padding-left: 10px;
+}
+
+.left textarea {
+  width: 672px;
+  height: 31px;
+  margin-top: 44px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #514949;
+  color: burlywood;
+  font-size: 20px;
+}
+
+.right {
+  width: 282px;
+  height: 264px;
+  /* border: 2px solid red; */
+  margin-left: 35px;
+  margin-top: 30px;
+}
+
+.right p {
+  font-family: "Playwrite GB S", cursive;
+}
+
+.right ion-icon {
+  filter: invert();
+  width: 45px;
+  margin-top: 10px;
+}
